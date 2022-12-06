@@ -116,12 +116,28 @@ public class TimeTableMain {
         i = in.nextInt();
         in.nextLine();             // for \n that will be stored in the buffer memory.
         // Coping the next element to the deletion position
-        Module[i] = Module[i + 1];
-        Batch[i] = Batch[i + 1];
-        Faculty[i] = Faculty[i + 1];
-        RoomNo[i] = RoomNo[i + 1];
-        startTime[i] = startTime[i + 1];
-        endTime[i] = endTime[i + 1];
+//        for (int j = 0; j < 2; j++) {
+////            Module[i] = Module[i + 1];
+////            Batch[i] = Batch[i + 1];
+////            Faculty[i] = Faculty[i + 1];
+////            RoomNo[i] = RoomNo[i + 1];
+////            startTime[i] = startTime[i + 1];
+////            endTime[i] = endTime[i + 1];
+////            Module[i] = "Class Cancelled";
+////            Batch[i] = "Class Cancelled";
+////            Faculty[i] = "Class Cancelled";
+////            RoomNo[i] = "Class Cancelled";
+////            startTime[i] = "Class Cancelled";
+////            endTime[i] = "Class Cancelled";
+//
+//        }
+        Module[i] = "Class Cancelled";
+        Batch[i] = "Class Cancelled";
+        Faculty[i] = "Class Cancelled";
+        RoomNo[i] = "Class Cancelled";
+        startTime[i] = "Class Cancelled";
+        endTime[i] = "Class Cancelled";
+        printingFunc();
         System.out.println();
         System.out.println("CLASS DEFER SUCCESSFULLY! ");
     }

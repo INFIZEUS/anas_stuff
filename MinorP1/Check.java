@@ -1,7 +1,7 @@
 package MinorP1;
 
 
-    import java.io.*;
+import java.io.*;
 import java.lang.*;
 import java.util.*;
     public class Check
